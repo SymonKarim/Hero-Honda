@@ -1,0 +1,47 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+}nav{
+    top: 0;
+  position: fixed;
+}
+.new-bg-clr{
+    background-color: #264653;
+    color: white;
+}
+.nav-margin li{
+    margin: 15px;
+
+}
+.nav-margin li a{
+    color: white;
+}
+.feature-img{
+    width: 288px;
+    height: 243px;
+}
+.hr-class{
+    width: 12%;
+    color: orangered;
+    height: 900px;
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+}
+.gray-custom{
+    filter: grayscale(1);
+}
+.gray-custom:hover{
+    filter: grayscale(0);
+}
+.common-headings{
+    font-size: 45px;
+    font-weight: 1000px;
+}
+.common-image-circle{
+    width: 250px;
+}
+.form-clr-custom{
+    background-color: #f9f9f9;
+}
